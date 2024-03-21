@@ -9,7 +9,7 @@ fn main(x: Field, y: Field) -> pub Field {
 #[test]
 fn test_main() {
     let x : Field = 0x12345;
-    let y : Field = 0x34567;
+    let y : Field = 0x000000000000000000000000000000000000000000000000016345785d8a0000;
 
     std::println(main(x, y));
 }

@@ -19,12 +19,12 @@ fn main(
 #[test]
 fn test_main() {
     let passcode : Field = 0x12345;
-    let reqChain : Field = 0x2;
-    let reqToken : Field = 0x1;
-    let serverHash : Field = 0x272812d9e75c98fa2a66982adb36b921c1e7c1f5c14a4b6ff213c75745ff4113;
-    let chainId : Field = 0x2;
-    let amount : Field = 0x34567;
-    let token : Field = 0x1;
+    let reqChain : Field = 0x0000000000000000000000000000000000000000000000000000000000000763;
+    let reqToken : Field = 0x0000000000000000000000000000000000000000000000000000000000000000;
+    let serverHash : Field = 0x1ed20233b978011f56673ccc26a06f212400acd3cdf993d99edd66f4424844e4;
+    let chainId : Field = 0x0000000000000000000000000000000000000000000000000000000000000763;
+    let amount : Field = 0x000000000000000000000000000000000000000000000000016345785d8a0000;
+    let token : Field = 0x0000000000000000000000000000000000000000000000000000000000000000;
 
     main(passcode, reqChain, reqToken, serverHash, chainId, amount, token);
 }
